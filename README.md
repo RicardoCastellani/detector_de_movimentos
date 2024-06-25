@@ -11,7 +11,7 @@ Este repositório contém um simples detector de movimento utilizando Python com
 ## Instruções de Uso
 
 1. Clone o repositório.
-2. Certifique-se de ter Python e as bibliotecas necessárias instaladas (OpenCV).
+2. Certifique-se de ter Python e as bibliotecas necessárias instaladas (OpenCV e Tkinter).
 3. Execute o arquivo `detector_movimento.py`.
 4. Pressione o botão "Ligar Detector de Movimento" para iniciar a detecção.
 5. Para encerrar, pressione a tecla 'Esc'.
