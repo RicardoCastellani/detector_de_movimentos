@@ -2,9 +2,6 @@ import cv2
 from tkinter import *
 
 def calculaDiferenca(img1, img2, img3):
-    """
-    Captura o movimento pela subtração de pixel dos frames.
-    """
     d1 = cv2.absdiff(img3, img2)
     d2 = cv2.absdiff(img2, img1)
     imagem = cv2.bitwise_and(d1,d2)
@@ -13,9 +10,6 @@ def calculaDiferenca(img1, img2, img3):
 
 
 def liga(event):
-    """
-    Inicia a detecção de movimento utlizando a webcam conectada. Salva as capturas de movimentos em 'C:\Imagens Deteccao/.
-    """
     janela = "Tela de Captura"
     janela2 = "Tela Normal"
     i=1
