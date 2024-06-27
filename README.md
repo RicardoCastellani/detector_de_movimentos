@@ -30,5 +30,4 @@ Este repositório contém um simples detector de movimento utilizando Python com
 ## Notas
 
 - O código captura imagens automaticamente quando movimento é detectado e as salva em um diretório específico (`C:\Imagens Deteccao/`).
-- A interface é minimalista, adequada para fins educacionais e experimentais.
 
